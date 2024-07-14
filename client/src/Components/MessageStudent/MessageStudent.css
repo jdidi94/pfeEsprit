@@ -1,0 +1,14 @@
+.firstBox .content {
+  position: relative;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  right: 0px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.text-content {
+  display: inline-block;
+}

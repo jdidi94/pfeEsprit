@@ -31,6 +31,7 @@ import Chat from "./Pages/chat.jsx";
 import "./App.css";
 import Cookies from "js-cookie";
 import CvGenerator from "./Pages/CvGenerator.jsx";
+import EditProfile from "./Components/EditProfile/EditProfile.jsx";
 const App = () => {
   const { token, setToken } = useContext(Context);
   useEffect(() => {
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/edit" element={<EditProfile />} />
 
           <Route path="/CV" element={<CVStudent />} />
         </Routes>

@@ -1,0 +1,32 @@
+/* EditProfile.css */
+.container1 {
+    max-width: 100%;
+    padding: 15px;
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+  /* Adjust form width on smaller screens */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .form-container {
+      padding: 10px;
+    }
+  }
+  
